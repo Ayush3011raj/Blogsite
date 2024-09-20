@@ -1,0 +1,111 @@
+h1 {
+    text-align: center;
+    margin-top: 24px;
+    font-family: cursive;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 18px;
+}
+body{
+    background-color: #73afaf;
+}
+ 
+h2 {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 64px;
+    color: #1b215f;
+}
+
+.section {
+   display: flex;
+    margin-top: 70px;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.newpost {
+ 
+    width: 25%;
+    height: 300px;
+    border: 5px solid #424456;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding:10px;
+}
+.delete{
+
+    width: 25%;
+    height: 300px;
+    border: 5px solid #424456;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding:10px;
+}
+.view{
+    width: 50%;
+    height: 300px;
+    border: 5px solid #424456;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding:10px;
+    background-color: #3b7c2d;
+}
+
+.section h2{
+    text-align: center;
+    margin:8px auto;
+    font-weight: bold;
+}
+p{
+    display: block;
+    margin-top: 20px;
+    font-size:1.5rem;
+    font-style:italic;
+    text-align: center;
+}
+
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    gap: 20px; 
+}
+
+
+.input-text {
+    width: 25vw; 
+    height: 300px; 
+    font-size: 16px; 
+    padding: 10px; 
+    border: 2px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; 
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+

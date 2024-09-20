@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Welcome, To Ayush Blogs</h1>
+     <%- include("header.ejs") %>
+     <h2 > Whats here for you</h2>
+     <div class="section">
+        <div class="newpost">
+              <h2 > Write New Blogs!</h2>
+              <p>Write new blogs here totally free of cost. Tell other people about your expereinces or anything you would like to share.
+                Use the above new post tab to create a new post.
+              </p>
+        </div>
+        <div class="view">
+                <h2>See your written blogs here</h2>
+                <% if(locals.newtrig==="1"){ %>
+                    <p><%= newpose%> </p>
+                 <% } else if(locals.newtrig2=="2"){ %>
+                   <p><%= newpose2%> </p>
+                   <% } else{ %>
+                <p>Write anything you wish to and get it displayed on the home page!. </p>
+                <% } %>
+        </div>
+        
+        <div class="delete">
+            <h2> Edit/Delete Options </h2>
+            <p> You can also edit posts if you  want to make some changes and delete them as well.</p>
+        </div>
+     </div>
+     <footer>
+        <p>Copyright © from Ayush</p>
+      </footer>
+</body>
+</html>

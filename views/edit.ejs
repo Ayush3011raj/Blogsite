@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-filled Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            font-family: cursive;
+            font-weight: bold;
+            font-size:2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Edit your blog here!</h1>
+    <form action="/edit" method="POST" class="centered-form">
+        <!-- Pre-filled input text field -->
+        <input type="text" name="blog" class="input-text" value="<%= editcont %>" placeholder="Enter your blog here">
+        <input type="submit" value="Submit" class="submit-button">
+    </form>
+    <footer>
+        <p>Copyright © from Ayush</p>
+    </footer>
+</body>
+</html>
